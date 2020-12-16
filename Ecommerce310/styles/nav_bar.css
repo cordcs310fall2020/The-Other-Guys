@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: left;
+    justify-items: end;
+   
+}
+.navbar > .title {
+    justify-self: start;
+}
+.navbar ul {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+.navbar ul li {
+    display: inline;
+}
+.navbar .nav-link {
+    display: inline-block;
+}
+nav.navbar {
+    border: solid white 2px;
+    text-align: left;
+}
